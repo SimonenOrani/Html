@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova Pratica Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-200 text-gray-800 font-sans antialiased"> <!---->
+    <header>
+        <nav class="bg-white-200 shadow sticky top-0 z-50">
+            <div class="max-w-7xl mx-auto p-4 flex justify-between items-center">
+                <h2 class="text-3xl font-bold mb-6">StartWeb</h2>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="text-gray-600 font-medium">Home</a>
+                    <a href="#" class="text-gray-600 font-medium">Servizi</a>
+                    <a href="#" class="text-gray-600 font-medium">Progetti</a>
+                </div>
+                <div class="md:hidden text-2x1 coursor-pointer">☰</div>
+            </div>
+        </nav>
+    </header>
+        
+    <section class="max-w-6x1 ma-auto p-4 mt-10">
+        <h2 class="text-4xl font-bold mb-6">Il Buisness</h2>
+        <p class="text-2xl text-gray-600">ti auitiamo a crescere il tuo Buisness</p>
+        <div class="p-2">
+         <button class="
+                    bg-indigo-600 text-white front-bold py-3 px-8
+                    rounded-full shadow-lg
+                    hover:bg-indigo-800
+                    transtion duration-300 transform
+                    hover:-translate-y-1">
+            Clicca per piu informazioni
+         </button>
+        </div>
+    </section>
+       
+    <section class="max-w-6x1 ma-auto p-4 mt-10">
+        <h2 class="text-3xl font-bold mb-6"> Cosa Offriamo</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4"> 
+        <div class="max-w-sm mx-auto bg-white rounded-xl drop-shadow-xl
+                     overflow-hidden border-gray-100mt-10 shadow-xl
+                     hover:-translate-y-1 transtion duration-300 transform">
+            <img class="w-full h-48 object-cover"
+                 src="https://images.unsplash.com/photo-1609372254316-029635bbabe4?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+            <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold antialiased">
+                        Buisness</div>
+                        <H2 class="block mt-1 text-lg leading-tight font-bold text-black"> Strategie marcketing</H2>
+                        <p class="text-gray-500">impara come gestire il tuo marketing al meglio</p>
+        </div> 
+        <div class="md:row-span-1 bg-orange-200 rounded-xl
+                p-6 h-64 flex items-center justify-center text-x1
+                font-bold">consigli legali</div> 
+        <div class="md:row-span-1 bg-yellow-200 rounded-xl
+                p-6 h-64 flex items-center justify-center text-x1
+                font-bold">pubblicita</div> 
+        </div>
+    </section>
+</body>
+</html>
